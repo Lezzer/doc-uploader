@@ -16,7 +16,6 @@ class Uploader extends Component {
         event.preventDefault();
         
         let file = event.target.files[0];
-        console.log("You've uploaded the following file:"  + file.name);
         this.setState(
         { 
             uploaded: file,
@@ -51,7 +50,9 @@ class Uploader extends Component {
         setTimeout(() => this.progressToStep3(), 2000);
     }
     
-    progressToStep3() { this.setState({step: 3}); }
+    progressToStep3() { 
+        this.setState({step: 3}); 
+    }
     
     render() {
         return (
