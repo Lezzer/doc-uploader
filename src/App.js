@@ -18,6 +18,7 @@ class App extends Component {
         
         <div className="Uploader-container">
             <Uploader 
+                steps={[1, 2, 4]}
                 doctype="Selfie"
                 header="Upload Selfie" 
                 title="We require a selfie of you with your photo ID."
@@ -25,7 +26,7 @@ class App extends Component {
                 image="/assets/placeholder.png"
                 button="Add your photo ID"
                 step1bullets={["Hold your ID under your chin.", "Make sure we can see your photos match", "Don't add filters or change the picture in any way."]}
-                step3bullets={["We’ll review your identification and let you know if there 	are any problems with it.", "Once reviewed we’ll add this as proof of ID for your Car Finance application."]}
+                step4bullets={["We’ll review your identification and let you know if there 	are any problems with it.", "Once reviewed we’ll add this as proof of ID for your Car Finance application."]}
             />
         </div>
       </div>
