@@ -1,0 +1,14 @@
+.step1 {
+    background-color: transparent;
+    text-align: center;
+}
+
+.step1 h2 {
+    color: darkgreen;
+    text-align: left;
+    font-size: 1em;
+}
+
+.step1 ul {
+    text-align: left;
+}

@@ -1,0 +1,46 @@
+#container {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    height: 40em;
+}
+
+.uploader-header {
+    background-color: white;
+    height: 2em;
+    padding-top: 1em;
+    border-bottom: silver 1px solid;
+}
+
+.uploader-title {
+    background-color: transparent;
+    font-family: DengXian, Algerian, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 3em;
+}
+
+.uploader-main {
+    background-color: white;
+    height: 30em;
+    width: 35em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.uploader-footer {
+    background-color: white;
+    height: 4em;
+    border-bottom: silver 1px solid;
+    margin-top: 2em;
+}
+
+.uploader-button {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 2em;
+    font-size: larger;
+    padding: 1em;
+    top: 4em;
+}
